@@ -1,0 +1,11 @@
+spring:
+  mustache:
+    prefix: classpath:/templates/
+    suffix: .hbs
+  h2:
+    console:
+      enabled: true
+  mvc:
+    static-path-pattern: /static/**
+  jpa:
+    show-sql: true
